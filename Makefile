@@ -1,10 +1,10 @@
 # makefile for base64 library for Lua
 
 # change these to reflect your Lua installation
-LUA= /tmp/lhf/lua-5.2.1
-LUAINC= $(LUA)/src
-LUALIB= $(LUA)/src
-LUABIN= $(LUA)/src
+LUA= ../lua
+LUAINC= $(LUA)
+LUALIB= $(LUA)
+LUABIN= $(LUA)
 
 # these will probably work if Lua has been installed globally
 #LUA= /usr/local
